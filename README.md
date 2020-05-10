@@ -36,9 +36,9 @@ Below are step by step series that tells how to get a development env running
 * WeatherAppTask is developer using "MVVM" desing pattern.
 * View layer seprate to handle all the UI.
 * ViewModel layer to communicated between UI and Model layer.
-* Model layer to handle all date and network related task.
+* Model layer to handle all data and network related task.
 * Using Combine framework to manage state.
-* Creating bindings between your UI and your ViewModel with SwiftUI.
+* Creating bindings between your UI and ViewModel with SwiftUI.
 ```
 ## Testing
 

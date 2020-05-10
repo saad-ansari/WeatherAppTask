@@ -33,7 +33,7 @@ Below are step by step series that tells how to get a development env running
 ```
 ### Coding
 ```
-* WeatherAppTask is developer using "MVVM" desing pattern.
+* WeatherAppTask is developer using `MVVM` desing pattern.
 * View layer seprate to handle all the UI.
 * ViewModel layer to communicated between UI and Model layer.
 * Model layer to handle all data and network related task.
@@ -42,7 +42,7 @@ Below are step by step series that tells how to get a development env running
 ```
 ## Testing
 
-WeatherAppTask has few UnitTest up and running.
+WeatherAppTask has few UnitTests up and running.
 
 ### How to test UnitTest
 ```

@@ -5,62 +5,50 @@ Developed an application to get current weather and forecast of next 5 days of t
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Coding](#coding)
 - [Unit Testing](#testing)
 - [Author](#author)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
 ```
-Softwares : 
-
+iOS 13.0+
+Xcode 11.4+
+Swift 5
 ```
-
 ### Installation
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+Below are step by step series that tells how to get a development env running
 ```
-Give the example
+### How to run the example?
+
+* Clone this repo
+* Open shell window and navigate to project folder
+* Run `pod install`
+* Open `WeatherAppTask.xcworkspace` and run the project on selected device or simulator
 ```
-
-And repeat
-
+### Coding
 ```
-until finished
+This project is developer using "MVVM" desing pattern focusing totaly in to code reuseablity and optimization technique.
+* View layer seprate to handle all the UI
+* ViewModel layer to communicated between UI and Model layer
+* Model layer to handle all date and network related task
+* Using Combine framework to manage state.
+* Creating bindings between your UI and your ViewModel with SwiftUI.
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Testing
 
-Explain how to run the automated tests for this system
+Project has few UnitTest up and running.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+### How to test UnitTest
 
 ```
-Give an example
+* Run the tests using CMD+U
+* To view test cases : open `WeatherAppTaskTests.swift` 
+* To run separet test : open `Show the Test navigator` from the navigator panel.
+* To view the code coverage of the UnitTest : open `Show the Report navigator` from the navigator panel.
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-``` 
 
 ## Author
 

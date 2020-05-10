@@ -54,7 +54,7 @@ WeatherAppTask has few UnitTest up and running.
 
 ## Author
 
-* **Muhammad Saad Ansari** - *Initial work*
+* **Muhammad Saad Ansari** 
 
 ## License
 
